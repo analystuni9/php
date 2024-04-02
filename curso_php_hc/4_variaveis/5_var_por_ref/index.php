@@ -1,0 +1,23 @@
+<?php
+$x = 10;
+$y =& $x;
+echo '<br>';
+echo "Valor de x é: $x linha 5";
+echo '<br>';
+echo "Valor de y é: $y linha 7";
+echo '<br>';
+ $y = 15;
+echo '<br';
+echo 'Atribuição após ref';
+echo '<br>';
+echo "Valor de x é: $x linha 13";
+echo '<br>';
+echo "Valor de y é: $y linha 15";
+echo '<br>';
+$x = 20;
+echo 'Atribuição após ref 2';
+echo '<br>';
+echo "Valor de x é: $x linha 20";
+echo '<br>';
+echo "Valor de y é: $y linha 22";
+echo '<br>';
